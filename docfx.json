@@ -1,0 +1,81 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [
+            "src/godot/bin/GodotSharp/Api/Release/GodotSharp.dll"
+          ]
+        }
+      ],
+      "dest": "generated/metadata/main/4.2.2-stable"
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "src/godot/bin/GodotSharp/Api/Release/GodotSharpEditor.dll"
+          ]
+        }
+      ],
+      "dest": "generated/metadata/editor/4.2.2-stable"
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "src/godot/bin/GodotSharp/Api/Release/GodotPlugins.dll"
+          ]
+        }
+      ],
+      "dest": "generated/metadata/plugin/4.2.2-stable"
+    }
+  ],
+  "build": {
+    "dest": "generated/docs/4.2.2-stable",
+    "content": [
+      {
+        "src": "generated/metadata/main/4.2.2-stable/",
+        "files": [
+          "**.yml"
+        ],
+        "dest": "main"
+      },
+      {
+        "src": "generated/metadata/plugin/4.2.2-stable/",
+        "files": [
+          "**.yml"
+        ],
+        "dest": "plugin"
+      },
+      {
+        "src": "generated/metadata/editor/4.2.2-stable/",
+        "files": [
+          "**.yml"
+        ],
+        "dest": "editor"
+      },
+      {
+        "src": "custom/",
+        "files": [
+          "toc.yml",
+          "*.md"
+        ]
+      }
+    ],
+    "sitemap": {
+      "baseUrl": "https://straydragon.github.io/godot-csharp-api-doc",
+      "priority": 0.1,
+      "changefreq": "monthly"
+    },
+    "globalMetadata": {
+      "_appTitle": "Godot4 C# API",
+      "_appFooter": "Godot Documentation",
+      "_enableSearch": true
+    },
+    "template": [
+      "default",
+      "modern"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+- name: Home
+  href: index.md
+- name: API
+  href: main/Godot.GD.html
+- name: Plugin API
+  href: plugin/GodotPlugins.html
+- name: Editor API
+  href: editor/Godot.html
