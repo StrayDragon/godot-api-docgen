@@ -7,7 +7,7 @@ This is Unofficial Godot4 C# API documentation
 
 ## How to build?
 
-WIP
+WIP, a dead simple tutorial is [here](./src/README.md)
 
 
 # Related projects & Inspired by
