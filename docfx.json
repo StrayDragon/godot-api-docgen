@@ -64,7 +64,7 @@
       }
     ],
     "sitemap": {
-      "baseUrl": "https://straydragon.github.io/godot-csharp-api-doc",
+      "baseUrl": "https://straydragon.github.io/godot-csharp-api-doc/4.2.2-stable",
       "priority": 0.1,
       "changefreq": "monthly"
     },
