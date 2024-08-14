@@ -1,9 +1,9 @@
 # What is this?
 
-This is Unofficial Godot4 C# API documentation
-
-- https://straydragon.github.io/godot-csharp-api-doc
-
+Unofficial Godot4 C# API documentation:
+- **4.2.2-stable**: https://straydragon.github.io/godot-csharp-api-doc/4.2.2-stable/
+> Separate into another repository which serves as a documentation repository., see https://github.com/StrayDragon/godot-csharp-api-doc
+  
 
 ## How to build?
 
