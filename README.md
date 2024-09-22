@@ -7,7 +7,12 @@ Unofficial Godot4 C# API documentation:
 
 ## How to build?
 
-WIP, a dead simple tutorial is [here](./src/README.md)
+0. perpare target version *.dll metafiles. see [src/README.md](./src/README.md)
+1. replace target version from old version in `docfx.json` like this
+```bash
+sed -i 's/4.2.2-stable/4.3-stable/g' docfx.json
+```
+2. `make build-doc`
 
 
 # Related projects & Inspired by
