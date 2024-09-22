@@ -1,14 +1,14 @@
 # What is this?
 
 Unofficial Godot4 C# API documentation:
-- **4.2.2-stable**: https://straydragon.github.io/godot-csharp-api-doc/4.2.2-stable/
+
 > Separate into another repository which serves as a documentation repository., see https://github.com/StrayDragon/godot-csharp-api-doc
-  
+
 
 ## How to build?
 
 0. perpare target version *.dll metafiles. see [src/README.md](./src/README.md)
-1. replace target version from old version in `docfx.json` like this
+1. replace target version (e.g. 4.3-stable) from old version (e.g. 4.2.2-stable) in `docfx.json` like this
 ```bash
 sed -i 's/4.2.2-stable/4.3-stable/g' docfx.json
 ```
