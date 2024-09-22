@@ -8,7 +8,7 @@
           ]
         }
       ],
-      "dest": "generated/metadata/main/4.2.2-stable"
+      "dest": "generated/metadata/main/4.3-stable"
     },
     {
       "src": [
@@ -18,7 +18,7 @@
           ]
         }
       ],
-      "dest": "generated/metadata/editor/4.2.2-stable"
+      "dest": "generated/metadata/editor/4.3-stable"
     },
     {
       "src": [
@@ -28,28 +28,28 @@
           ]
         }
       ],
-      "dest": "generated/metadata/plugin/4.2.2-stable"
+      "dest": "generated/metadata/plugin/4.3-stable"
     }
   ],
   "build": {
-    "dest": "generated/docs/4.2.2-stable",
+    "dest": "generated/docs/4.3-stable",
     "content": [
       {
-        "src": "generated/metadata/main/4.2.2-stable/",
+        "src": "generated/metadata/main/4.3-stable/",
         "files": [
           "**.yml"
         ],
         "dest": "main"
       },
       {
-        "src": "generated/metadata/plugin/4.2.2-stable/",
+        "src": "generated/metadata/plugin/4.3-stable/",
         "files": [
           "**.yml"
         ],
         "dest": "plugin"
       },
       {
-        "src": "generated/metadata/editor/4.2.2-stable/",
+        "src": "generated/metadata/editor/4.3-stable/",
         "files": [
           "**.yml"
         ],
@@ -64,7 +64,7 @@
       }
     ],
     "sitemap": {
-      "baseUrl": "https://straydragon.github.io/godot-csharp-api-doc/4.2.2-stable",
+      "baseUrl": "https://straydragon.github.io/godot-csharp-api-doc/4.3-stable",
       "priority": 0.1,
       "changefreq": "monthly"
     },
