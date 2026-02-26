@@ -1,3 +1,6 @@
+_default:
+    @just -l
+
 build-doc:
 	docfx --debug docfx.json
 
