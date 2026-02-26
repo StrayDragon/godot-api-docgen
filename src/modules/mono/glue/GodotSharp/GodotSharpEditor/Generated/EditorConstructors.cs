@@ -1,0 +1,88 @@
+namespace Godot;
+
+internal static class EditorConstructors
+{
+    private static void AddEditorConstructors()
+    {
+        var builtInMethodConstructors = Constructors.BuiltInMethodConstructors;
+        builtInMethodConstructors.Add("EditorCommandPalette", ptr => new EditorCommandPalette(ptr));
+        builtInMethodConstructors.Add("EditorContextMenuPlugin", ptr => new EditorContextMenuPlugin(ptr));
+        builtInMethodConstructors.Add("EditorDebuggerPlugin", ptr => new EditorDebuggerPlugin(ptr));
+        builtInMethodConstructors.Add("EditorDebuggerSession", ptr => new EditorDebuggerSession(ptr));
+        builtInMethodConstructors.Add("EditorDock", ptr => new EditorDock(ptr));
+        builtInMethodConstructors.Add("EditorExportPlatform", ptr => new EditorExportPlatform(ptr));
+        builtInMethodConstructors.Add("EditorExportPlatformAndroid", ptr => new EditorExportPlatformAndroid(ptr));
+        builtInMethodConstructors.Add("EditorExportPlatformAppleEmbedded", ptr => new EditorExportPlatformAppleEmbedded(ptr));
+        builtInMethodConstructors.Add("EditorExportPlatformExtension", ptr => new EditorExportPlatformExtension(ptr));
+        builtInMethodConstructors.Add("EditorExportPlatformIOS", ptr => new EditorExportPlatformIos(ptr));
+        builtInMethodConstructors.Add("EditorExportPlatformLinuxBSD", ptr => new EditorExportPlatformLinuxBsd(ptr));
+        builtInMethodConstructors.Add("EditorExportPlatformMacOS", ptr => new EditorExportPlatformMacOS(ptr));
+        builtInMethodConstructors.Add("EditorExportPlatformPC", ptr => new EditorExportPlatformPC(ptr));
+        builtInMethodConstructors.Add("EditorExportPlatformVisionOS", ptr => new EditorExportPlatformVisionOS(ptr));
+        builtInMethodConstructors.Add("EditorExportPlatformWeb", ptr => new EditorExportPlatformWeb(ptr));
+        builtInMethodConstructors.Add("EditorExportPlatformWindows", ptr => new EditorExportPlatformWindows(ptr));
+        builtInMethodConstructors.Add("EditorExportPlugin", ptr => new EditorExportPlugin(ptr));
+        builtInMethodConstructors.Add("EditorExportPreset", ptr => new EditorExportPreset(ptr));
+        builtInMethodConstructors.Add("EditorFeatureProfile", ptr => new EditorFeatureProfile(ptr));
+        builtInMethodConstructors.Add("EditorFileDialog", ptr => new EditorFileDialog(ptr));
+        builtInMethodConstructors.Add("EditorFileSystem", ptr => new EditorFileSystem(ptr));
+        builtInMethodConstructors.Add("EditorFileSystemDirectory", ptr => new EditorFileSystemDirectory(ptr));
+        builtInMethodConstructors.Add("EditorFileSystemImportFormatSupportQuery", ptr => new EditorFileSystemImportFormatSupportQuery(ptr));
+        builtInMethodConstructors.Add("EditorImportPlugin", ptr => new EditorImportPlugin(ptr));
+        builtInMethodConstructors.Add("EditorInspector", ptr => new EditorInspector(ptr));
+        builtInMethodConstructors.Add("EditorInspectorPlugin", ptr => new EditorInspectorPlugin(ptr));
+        builtInMethodConstructors.Add("EditorInterface", ptr => new EditorInterface(ptr));
+        builtInMethodConstructors.Add("EditorNode3DGizmo", ptr => new EditorNode3DGizmo(ptr));
+        builtInMethodConstructors.Add("EditorNode3DGizmoPlugin", ptr => new EditorNode3DGizmoPlugin(ptr));
+        builtInMethodConstructors.Add("EditorPaths", ptr => new EditorPaths(ptr));
+        builtInMethodConstructors.Add("EditorPlugin", ptr => new EditorPlugin(ptr));
+        builtInMethodConstructors.Add("EditorProperty", ptr => new EditorProperty(ptr));
+        builtInMethodConstructors.Add("EditorResourceConversionPlugin", ptr => new EditorResourceConversionPlugin(ptr));
+        builtInMethodConstructors.Add("EditorResourcePicker", ptr => new EditorResourcePicker(ptr));
+        builtInMethodConstructors.Add("EditorResourcePreview", ptr => new EditorResourcePreview(ptr));
+        builtInMethodConstructors.Add("EditorResourcePreviewGenerator", ptr => new EditorResourcePreviewGenerator(ptr));
+        builtInMethodConstructors.Add("EditorResourceTooltipPlugin", ptr => new EditorResourceTooltipPlugin(ptr));
+        builtInMethodConstructors.Add("EditorSceneFormatImporter", ptr => new EditorSceneFormatImporter(ptr));
+        builtInMethodConstructors.Add("EditorSceneFormatImporterBlend", ptr => new EditorSceneFormatImporterBlend(ptr));
+        builtInMethodConstructors.Add("EditorSceneFormatImporterFBX2GLTF", ptr => new EditorSceneFormatImporterFbx2Gltf(ptr));
+        builtInMethodConstructors.Add("EditorSceneFormatImporterGLTF", ptr => new EditorSceneFormatImporterGltf(ptr));
+        builtInMethodConstructors.Add("EditorSceneFormatImporterUFBX", ptr => new EditorSceneFormatImporterUfbx(ptr));
+        builtInMethodConstructors.Add("EditorScenePostImport", ptr => new EditorScenePostImport(ptr));
+        builtInMethodConstructors.Add("EditorScenePostImportPlugin", ptr => new EditorScenePostImportPlugin(ptr));
+        builtInMethodConstructors.Add("EditorScript", ptr => new EditorScript(ptr));
+        builtInMethodConstructors.Add("EditorScriptPicker", ptr => new EditorScriptPicker(ptr));
+        builtInMethodConstructors.Add("EditorSelection", ptr => new EditorSelection(ptr));
+        builtInMethodConstructors.Add("EditorSettings", ptr => new EditorSettings(ptr));
+        builtInMethodConstructors.Add("EditorSpinSlider", ptr => new EditorSpinSlider(ptr));
+        builtInMethodConstructors.Add("EditorSyntaxHighlighter", ptr => new EditorSyntaxHighlighter(ptr));
+        builtInMethodConstructors.Add("EditorToaster", ptr => new EditorToaster(ptr));
+        builtInMethodConstructors.Add("EditorTranslationParserPlugin", ptr => new EditorTranslationParserPlugin(ptr));
+        builtInMethodConstructors.Add("EditorUndoRedoManager", ptr => new EditorUndoRedoManager(ptr));
+        builtInMethodConstructors.Add("EditorVCSInterface", ptr => new EditorVcsInterface(ptr));
+        builtInMethodConstructors.Add("FileSystemDock", ptr => new FileSystemDock(ptr));
+        builtInMethodConstructors.Add("GDScriptSyntaxHighlighter", ptr => new GDScriptSyntaxHighlighter(ptr));
+        builtInMethodConstructors.Add("GridMapEditorPlugin", ptr => new GridMapEditorPlugin(ptr));
+        builtInMethodConstructors.Add("OpenXRBindingModifierEditor", ptr => new OpenXRBindingModifierEditor(ptr));
+        builtInMethodConstructors.Add("OpenXRInteractionProfileEditor", ptr => new OpenXRInteractionProfileEditor(ptr));
+        builtInMethodConstructors.Add("OpenXRInteractionProfileEditorBase", ptr => new OpenXRInteractionProfileEditorBase(ptr));
+        builtInMethodConstructors.Add("ResourceImporterBMFont", ptr => new ResourceImporterBMFont(ptr));
+        builtInMethodConstructors.Add("ResourceImporterBitMap", ptr => new ResourceImporterBitMap(ptr));
+        builtInMethodConstructors.Add("ResourceImporterCSVTranslation", ptr => new ResourceImporterCsvTranslation(ptr));
+        builtInMethodConstructors.Add("ResourceImporterDynamicFont", ptr => new ResourceImporterDynamicFont(ptr));
+        builtInMethodConstructors.Add("ResourceImporterImage", ptr => new ResourceImporterImage(ptr));
+        builtInMethodConstructors.Add("ResourceImporterImageFont", ptr => new ResourceImporterImageFont(ptr));
+        builtInMethodConstructors.Add("ResourceImporterLayeredTexture", ptr => new ResourceImporterLayeredTexture(ptr));
+        builtInMethodConstructors.Add("ResourceImporterMP3", ptr => new ResourceImporterMP3(ptr));
+        builtInMethodConstructors.Add("ResourceImporterOBJ", ptr => new ResourceImporterObj(ptr));
+        builtInMethodConstructors.Add("ResourceImporterOggVorbis", ptr => new ResourceImporterOggVorbis(ptr));
+        builtInMethodConstructors.Add("ResourceImporterSVG", ptr => new ResourceImporterSvg(ptr));
+        builtInMethodConstructors.Add("ResourceImporterScene", ptr => new ResourceImporterScene(ptr));
+        builtInMethodConstructors.Add("ResourceImporterShaderFile", ptr => new ResourceImporterShaderFile(ptr));
+        builtInMethodConstructors.Add("ResourceImporterTexture", ptr => new ResourceImporterTexture(ptr));
+        builtInMethodConstructors.Add("ResourceImporterTextureAtlas", ptr => new ResourceImporterTextureAtlas(ptr));
+        builtInMethodConstructors.Add("ResourceImporterWAV", ptr => new ResourceImporterWav(ptr));
+        builtInMethodConstructors.Add("ScriptCreateDialog", ptr => new ScriptCreateDialog(ptr));
+        builtInMethodConstructors.Add("ScriptEditor", ptr => new ScriptEditor(ptr));
+        builtInMethodConstructors.Add("ScriptEditorBase", ptr => new ScriptEditorBase(ptr));
+    }
+}
